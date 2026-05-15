@@ -51,5 +51,14 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@10.33.3"
+  "packageManager": "pnpm@10.33.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ineedjobtostartwork/eslint-typegen.git"
+  },
+  "author": "ineedjobtostartwork",
+  "bugs": {
+    "url": "https://github.com/ineedjobtostartwork/eslint-typegen/issues"
+  },
+  "homepage": "https://github.com/ineedjobtostartwork/eslint-typegen#readme"
 }
