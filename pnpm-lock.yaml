@@ -36,6 +36,62 @@ importers:
         specifier: ^3.2.4
         version: 3.2.4(@types/debug@4.1.12)(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.4)
 
+  packages/eslint-typegen:
+    dependencies:
+      commander:
+        specifier: ^14.0.3
+        version: 14.0.3
+    devDependencies:
+      '@arethetypeswrong/core':
+        specifier: ^0.18.2
+        version: 0.18.2
+      '@configs/vitest':
+        specifier: workspace:*
+        version: link:../../configs/vitest
+      '@ineedj/eslintrc':
+        specifier: 1.2.3
+        version: 1.2.3(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@6.0.3))(tailwindcss@3.4.17)(typescript@6.0.3)(vitest@4.1.5)
+      '@ineedj/prettierrc':
+        specifier: 3.0.0
+        version: 3.0.0(prettier@3.8.3)
+      '@ineedj/tsconfig':
+        specifier: ^1.0.0
+        version: 1.0.0
+      '@types/node':
+        specifier: ^25.6.0
+        version: 25.6.0
+      '@vitest/coverage-v8':
+        specifier: ^4.1.5
+        version: 4.1.5(vitest@4.1.5)
+      clean-package:
+        specifier: ^2.2.0
+        version: 2.2.0
+      cross-env:
+        specifier: ^10.1.0
+        version: 10.1.0
+      eslint:
+        specifier: ^8.57.1
+        version: 8.57.1
+      prettier:
+        specifier: ^3.8.3
+        version: 3.8.3
+      publint:
+        specifier: ^0.3.19
+        version: 0.3.19
+      rollup-plugin-copy:
+        specifier: ^3.5.0
+        version: 3.5.0
+      tsdown:
+        specifier: ^0.21.10
+        version: 0.21.10(@arethetypeswrong/core@0.18.2)(publint@0.3.19)(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+      vitest:
+        specifier: ^4.1.5
+        version: 4.1.5(@types/node@25.6.0)(@vitest/coverage-v8@4.1.5)(vite@7.1.9(@types/node@25.6.0)(jiti@2.6.1)(yaml@2.8.4))
+    publishDirectory: dist
+
   turbo/generators/templates/packages/test-package-cli:
     dependencies:
       commander:
