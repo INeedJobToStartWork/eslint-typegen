@@ -41,6 +41,9 @@ importers:
       commander:
         specifier: ^14.0.3
         version: 14.0.3
+      oh-my-error:
+        specifier: ^2.0.2
+        version: 2.0.2
     devDependencies:
       '@arethetypeswrong/core':
         specifier: ^0.18.2
@@ -3210,6 +3213,10 @@ packages:
 
   obug@2.1.1:
     resolution: {integrity: sha512-uTqF9MuPraAQ+IsnPf366RG4cP9RtUi7MLO1N3KEc+wb0a6yKpeL0lmk2IB1jY5KHPAlTc6T/JRdC/YqxHNwkQ==}
+
+  oh-my-error@2.0.2:
+    resolution: {integrity: sha512-hVvP778fgZEyfvTM/ohFowXdCX/FQWu+KrYSMcr6lVWwcQz/bZ6o6CxMzkPg99yGEks/u5SYD8RMLmF3KU8Gew==}
+    engines: {node: '>=20'}
 
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
@@ -7952,6 +7959,8 @@ snapshots:
       es-object-atoms: 1.1.1
 
   obug@2.1.1: {}
+
+  oh-my-error@2.0.2: {}
 
   once@1.4.0:
     dependencies:

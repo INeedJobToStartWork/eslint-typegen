@@ -1,5 +1,5 @@
 {
-	"name": "eslint-typegen",
+	"name": "@packages/eslint-typegen",
 	"version": "0.1.0",
 	"private": true,
 	"type": "module",
@@ -55,7 +55,8 @@
 		"tag": "latest"
 	},
 	"dependencies": {
-		"commander": "^14.0.3"
+		"commander": "^14.0.3",
+		"oh-my-error": "^2.0.2"
 	},
 	"engines": {
 		"node": ">=24"
